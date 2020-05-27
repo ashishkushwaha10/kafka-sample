@@ -1,0 +1,13 @@
+{
+    "type": "record",
+    "name": "test.cancel",
+    "fields": [
+        {
+            "name": "id",
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    ]
+}

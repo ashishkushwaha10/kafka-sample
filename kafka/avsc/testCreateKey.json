@@ -1,0 +1,14 @@
+{
+    "type": "record",
+    "name": "test.create",
+    "fields": [
+        {
+            "name": "id",
+            "type": [
+                "string",
+                "null",
+                "int"
+            ]
+        }
+    ]
+}
