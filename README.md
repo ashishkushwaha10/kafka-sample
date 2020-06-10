@@ -9,11 +9,11 @@
     - by default, zookeeper will run on port 2181.
 
   - kafka: `bin/kafka-server-start etc/kafka/server.properties`
-    - by default, zookeeper will run on port 9092.
+    - by default, kafka will run on port 9092.
     - we can also run kafka on cluster mode by running more kafka servers with different server.properties and different ports.
 
   - avro-schema-registry: `bin/schema-registry-start etc/schema-registry/schema-registry.properties`
-    - by default, zookeeper will run on port 8081.
+    - by default, schema-registry will run on port 8081.
     - Go to http://localhost:8081/subjects to check if the schema exists. At the first run, it should give `[]` as output.
 
 
